@@ -7,6 +7,7 @@ import play.api.data.Forms.{mapping, longNumber, nonEmptyText}
 import play.api.i18n.Messages
 
 object Products extends Controller {
+	// test github
 	def list = Action { implicit request =>
 		val products = Product.findAll
 
