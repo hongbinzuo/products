@@ -8,6 +8,7 @@ import play.api.i18n.Messages
 
 object Products extends Controller {
 	// test github
+	// test ssh key
 	def list = Action { implicit request =>
 		val products = Product.findAll
 
